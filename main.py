@@ -135,11 +135,6 @@ def run_bhai():
             os.startfile(notepad_path)
         except Exception:
             os.system("notepad")
-
-    # Open Stack Overflow
-    elif "open stack overflow" in command:
-        talk("Opening Stack Overflow")
-        webbrowser.open("https://stackoverflow.com")
     
     #Screenshot
     elif "screenshot" in command:
